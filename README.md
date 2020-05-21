@@ -13,7 +13,7 @@ Vue.directive('click-outside', ClickOutsideDirective)
 
 //YourComponent
 ```html
-<div @click="show" v-click-outside="hide">
+<div v-click-outside="hide">
   <div>
     click outside me
   </div>
